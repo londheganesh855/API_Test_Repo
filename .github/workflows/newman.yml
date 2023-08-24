@@ -30,7 +30,7 @@ jobs:
         run: npm install -g newman
       # Runs a single command using the runners shell
       - name: Run collection
-        run:  newman run "QuantumTcsPractice.postman_collection.json"
+        run:  newman run "QuantumTcsPractice.postman_collection.json.json"
         
      
 

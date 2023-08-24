@@ -28,8 +28,8 @@ jobs:
     # install newman and reporter
       - name: install newman
         run: |
-          nmp install -g newman
-          nmp install =g newman-reporter-htmlextra
+          npm install -g newman
+          npm install =g newman-reporter-htmlextra
        
       
       # Runs a single command using the runners shell
